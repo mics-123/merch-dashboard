@@ -1,0 +1,9 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* optional: winzige Global-Tweaks */
+html {
+  @apply bg-white text-gray-900;
+}
