@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Merch Dashboard",
+  "version": "0.1.0",
+  "description": "Dein Merch-Dashboard als Chrome-Extension",
+  "action": {
+    "default_popup": "popup/index.html"
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ]
+}
